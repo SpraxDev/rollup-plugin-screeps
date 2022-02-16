@@ -1,0 +1,1 @@
+module.exports = {"version":3,"file":"main.js","sources":["../fixtures/input.ts","../fixtures/main.ts"],"names":[],"mappings":";;SAAgB,KAAK,CAAC,CAAS;IAC7B,OAAO,CAAC,CAAA;AACV;;ACAA,OAAO,CAAC,GAAG,CAAC,KAAK,CAAC,OAAO,CAAC,CAAC;;"};
