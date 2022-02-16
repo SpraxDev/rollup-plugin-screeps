@@ -1,9 +1,12 @@
 # Rollup Screeps Plugin
 
+***This fork updated some dependencies and dropped the auto-branch feature which allows getting rid of the vulnearable `git-rev-sync` dependency***
+
+
 ## Install
 
 ```
-npm install --save-dev rollup-plugin-screeps
+npm install --save-dev github:SpraxDev/rollup-plugin-screeps
 ```
 
 ## Usage
