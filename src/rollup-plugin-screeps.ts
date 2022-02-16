@@ -1,6 +1,5 @@
 import { ScreepsAPI } from 'screeps-api'
 import * as fs from 'fs'
-import * as git from 'git-rev-sync'
 import * as path from 'path'
 import { Plugin, OutputOptions, SourceDescription, OutputBundle, PluginContext } from 'rollup';
 
@@ -140,10 +139,10 @@ export function getFileList(outputFile: string) {
 
 export function getBranchName(branch: string) {
   if (branch === 'auto') {
-    return git.branch()
-  } else {
-    return branch
+    console.warn('[WARNING] Automatically detecting the git-branch is no longer supported in this forked version');
   }
+  
+  return branch
 }
 
 const ex = (x: any) => JSON.stringify(x, null, 2);

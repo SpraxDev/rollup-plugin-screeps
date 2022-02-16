@@ -3,7 +3,6 @@ const typescript = require("rollup-plugin-typescript2")
 const expect = require('chai').expect
 const fs = require('fs')
 const path = require('path')
-const git = require('git-rev-sync')
 const clear = require("rollup-plugin-clear");
 const copy = require("rollup-plugin-copy")
 
@@ -95,7 +94,7 @@ describe('Rollup Screeps Plugin', function(){
 
   })
 
-  it('should generate branch name', async function(){
+  it.skip('should generate branch name', async function(){
     var screepsOptions = {
       dryRun: true
     }
